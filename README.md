@@ -18,7 +18,7 @@ O modelo ARIMA foi ajustado aos dados de treinamento e usou as observações pas
 Se o MSE for baixo, significa que as previsões do modelo estão próximas dos valores reais.
 O gráfico resultante mostrará a série temporal original, os valores reais de teste e as previsões do modelo, permitindo uma visualização clara do desempenho do modelo.
 
-=================
+
 MODEL 2
 
 1. Leitura de dados: O código começa lendo um arquivo CSV com a função pd.read_csv(), onde você deve ajustar o nome do arquivo e a coluna que contém as datas para o parâmetro index_col. A função parse_dates=True ajuda a interpretar as datas corretamente.
